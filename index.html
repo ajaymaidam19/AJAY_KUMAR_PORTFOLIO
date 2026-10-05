@@ -1,39 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Maidam Ajay Kumar | Data Science Professional</title>
-  <meta name="description" content="Portfolio of Maidam Ajay Kumar, Data Science Professional specialized in Python, SQL, Machine Learning, Predictive Modeling, and Business Intelligence.">
-  <meta name="author" content="Maidam Ajay Kumar">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Maidam Ajay Kumar | Data Science Professional">
-  <meta property="og:description" content="Explore data science, machine learning, deep acoustic anomaly detection, and BI dashboard projects by Maidam Ajay Kumar.">
-  <meta property="og:type" content="website">
-
-  <!-- Fonts & CDN Icons -->
-  <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
-  <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-  <link href="[https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap)" rel="stylesheet">
-  <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css)" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maidam Ajay Kumar | Data Science & Analytics</title>
+  <meta name="description" content="Portfolio of Maidam Ajay Kumar - Data Science Professional specializing in Python, Machine Learning, SQL, and Power BI." />
+  <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)" />
+  <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin />
+  <link href="[https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap](https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap)" rel="stylesheet" />
+  <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css)" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <!-- Header / Navigation -->
-  <header class="header" id="navbar">
+  <!-- Navigation -->
+  <header class="header" id="header">
     <div class="nav-container">
-      <a href="#hero" class="brand-monogram" aria-label="Maidam Ajay Kumar Home">
-        <span class="mono-bracket">[</span>
-        <span class="mono-text">MAK</span>
-        <span class="mono-dot">.</span>
-        <span class="mono-bracket">]</span>
+      <a href="#hero" class="brand-monogram">
+        <span class="mono-box">MAK</span>
+        <span class="brand-title">Maidam Ajay Kumar</span>
       </a>
 
-      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
-        <ul class="nav-links">
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#skills" class="nav-link">Skills</a></li>
           <li><a href="#projects" class="nav-link">Projects</a></li>
@@ -41,18 +29,15 @@
           <li><a href="#certifications" class="nav-link">Certifications</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <div class="nav-cta-group">
-          <a href="./asset/MAIDAM_AJAY_KUMAR_FlowCV_Resume_2026-09-03.pdf" class="btn btn-secondary btn-sm" download aria-label="Download Ajay Kumar's Resume">
-            <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
-            <span>Resume</span>
+        <div class="nav-actions">
+          <a href="assets/resume.pdf" class="btn btn-outline" download>
+            <i class="fa-solid fa-file-arrow-down"></i> Resume
           </a>
         </div>
       </nav>
 
-      <button class="mobile-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
       </button>
     </div>
   </header>
@@ -60,52 +45,65 @@
   <main>
     <!-- Hero Section -->
     <section class="hero-section" id="hero">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="container hero-container">
-        <div class="hero-badge">
-          <span class="pulse-indicator"></span>
-          <span>Data Science & Predictive Intelligence</span>
-        </div>
-        <h1 class="hero-title">
-          Maidam Ajay Kumar
-        </h1>
-        <p class="hero-subtitle">
-          Data Science Professional
-        </p>
-        <p class="hero-bio">
-          Synthesizing raw telemetry, acoustic signals, and enterprise customer data into predictive models and actionable business decisions. Specialized in statistical evaluation, unsupervised deep anomaly detection, and dynamic business intelligence dashboards.
-        </p>
-        
-        <div class="hero-meta-items">
-          <span class="meta-item"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Hyderabad, India</span>
-          <span class="meta-item"><i class="fa-solid fa-envelope" aria-hidden="true"></i> ajaymaidam19@gmail.com</span>
-          <span class="meta-item"><i class="fa-solid fa-phone" aria-hidden="true"></i> +91-8008742025</span>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Data Science & Predictive Analytics</span>
+          </div>
+          <h1 class="hero-headline">
+            Transforming Complex Data into <span class="gradient-text">Actionable Intelligence</span>
+          </h1>
+          <p class="hero-description">
+            Hello, I am <strong>Maidam Ajay Kumar</strong>, a Data Science Professional based in Hyderabad. I build end-to-end predictive models, deep anomaly detection systems, and high-impact analytics dashboards.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-diagram-project"></i> View Projects
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-secondary" download>
+              <i class="fa-solid fa-arrow-down-to-bracket"></i> Download CV
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fa-regular fa-envelope"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Hyderabad, India</span>
+            <span class="meta-item"><i class="fa-solid fa-envelope"></i> ajaymaidam19@gmail.com</span>
+            <span class="meta-item"><i class="fa-solid fa-phone"></i> +91-8008742025</span>
+          </div>
         </div>
 
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">
-            <span>Explore Projects</span>
-            <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
-          </a>
-          <a href="./asset/MAIDAM_AJAY_KUMAR_FlowCV_Resume_2026-09-03.pdf" class="btn btn-secondary" download>
-            <i class="fa-solid fa-download" aria-hidden="true"></i>
-            <span>Download Resume (PDF)</span>
-          </a>
-          <a href="#contact" class="btn btn-ghost">
-            <span>Get in Touch</span>
-          </a>
-        </div>
+        <div class="hero-panel">
+          <div class="code-terminal">
+            <div class="terminal-bar">
+              <div class="dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">pipeline_eval.py</span>
+            </div>
+            <pre class="terminal-body"><code><span class="t-keyword">from</span> sklearn.pipeline <span class="t-keyword">import</span> Pipeline
+<span class="t-keyword">import</span> pandas <span class="t-keyword">as</span> pd
+<span class="t-keyword">import</span> tensorflow <span class="t-keyword">as</span> tf
 
-        <div class="hero-socials">
-          <a href="[https://linkedin.com](https://linkedin.com)" target="_blank" rel="noopener noreferrer" aria-label="Ajay Kumar on LinkedIn" class="social-icon">
-            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-          </a>
-          <a href="[https://github.com](https://github.com)" target="_blank" rel="noopener noreferrer" aria-label="Ajay Kumar on GitHub" class="social-icon">
-            <i class="fa-brands fa-github" aria-hidden="true"></i>
-          </a>
-          <a href="mailto:ajaymaidam19@gmail.com" aria-label="Email Ajay Kumar" class="social-icon">
-            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-          </a>
+<span class="t-comment"># Anomaly Detection & Business Insights</span>
+candidate = {
+    <span class="t-string">"name"</span>: <span class="t-accent">"Maidam Ajay Kumar"</span>,
+    <span class="t-string">"role"</span>: <span class="t-accent">"Data Science Professional"</span>,
+    <span class="t-string">"specializations"</span>: [
+        <span class="t-string">"Machine Learning"</span>,
+        <span class="t-string">"Acoustic Deep Learning"</span>,
+        <span class="t-string">"Power BI & SQL Analytics"</span>
+    ],
+    <span class="t-string">"status"</span>: <span class="t-green">"Available for Opportunities"</span>
+}
+<span class="t-func">print</span>(f<span class="t-string">"Ready to deploy value: {candidate['role']}"</span>)</code></pre>
+          </div>
         </div>
       </div>
     </section>
@@ -114,51 +112,45 @@
     <section class="section about-section" id="about">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">Overview</span>
-          <h2 class="section-title">Professional Summary</h2>
-          <div class="section-divider"></div>
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">About Me</h2>
         </div>
-
-        <div class="about-grid">
-          <div class="about-card profile-statement-card">
-            <div class="data-terminal-header">
-              <span class="terminal-dot red"></span>
-              <span class="terminal-dot yellow"></span>
-              <span class="terminal-dot green"></span>
-              <span class="terminal-title">core_profile.py</span>
-            </div>
-            <div class="statement-content">
-              <p>
-                Data Science Professional with a strong foundation in Python, SQL, statistics, machine learning, and data visualization. Skilled in analyzing complex datasets, developing predictive models, identifying meaningful insights, and translating data into actionable business solutions.
-              </p>
-              <p>
-                Experienced with tools such as Pandas, NumPy, Scikit-learn, Power BI, and Tableau, with a dedicated commitment to solving real-world challenges through rigorous data-driven methodologies and signal analysis.
-              </p>
-            </div>
-          </div>
-
-          <div class="about-metrics-column">
-            <div class="feature-tile">
-              <div class="feature-icon"><i class="fa-solid fa-microchip"></i></div>
-              <div class="feature-info">
-                <h3>Predictive Modeling</h3>
-                <p>Regression, classification, clustering pipelines, and unsupervised deep learning architectures.</p>
+        <div class="about-card">
+          <div class="about-text-content">
+            <p class="lead-text">
+              Data Science Professional with a strong foundation in Python, SQL, statistics, machine learning, and data visualization.
+            </p>
+            <p>
+              Skilled in analyzing complex datasets, developing predictive models, identifying meaningful insights, and translating data into actionable business solutions. Experienced with modern industry tools such as Pandas, NumPy, Scikit-learn, Power BI, and Tableau, with a dedication to solving real-world challenges through data-driven methodologies.
+            </p>
+            <div class="core-strengths-grid">
+              <div class="strength-item">
+                <i class="fa-solid fa-microchip"></i>
+                <div>
+                  <h4>Predictive Modeling</h4>
+                  <p>Building classification, clustering, and regression frameworks with robust feature engineering.</p>
+                </div>
               </div>
-            </div>
-
-            <div class="feature-tile">
-              <div class="feature-icon"><i class="fa-solid fa-chart-pie"></i></div>
-              <div class="feature-info">
-                <h3>Business Intelligence</h3>
-                <p>Interactive KPIs, multidimensional filters, and cohort analysis across Power BI and Tableau.</p>
+              <div class="strength-item">
+                <i class="fa-solid fa-chart-pie"></i>
+                <div>
+                  <h4>Visual Storytelling</h4>
+                  <p>Translating multi-table databases into dynamic Power BI dashboards and executive KPIs.</p>
+                </div>
               </div>
-            </div>
-
-            <div class="feature-tile">
-              <div class="feature-icon"><i class="fa-solid fa-database"></i></div>
-              <div class="feature-info">
-                <h3>Relational Analytics</h3>
-                <p>Data cleaning, aggregation, exploratory queries, and schema interaction via MySQL and OracleSQL.</p>
+              <div class="strength-item">
+                <i class="fa-solid fa-wave-square"></i>
+                <div>
+                  <h4>Signal & Deep Learning</h4>
+                  <p>Preprocessing acoustic frequencies and applying unsupervised models for condition monitoring.</p>
+                </div>
+              </div>
+              <div class="strength-item">
+                <i class="fa-solid fa-database"></i>
+                <div>
+                  <h4>Structured Analytics</h4>
+                  <p>Complex relational data querying, demographic segmentation, and hypothesis validation.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -170,75 +162,297 @@
     <section class="section skills-section" id="skills">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">Capabilities</span>
-          <h2 class="section-title">Technical Competencies</h2>
-          <p class="section-lead">Categorized toolkit verified through machine learning projects, statistical testing, and enterprise data simulations.</p>
-          <div class="section-divider"></div>
+          <span class="section-tag">Core Competencies</span>
+          <h2 class="section-title">Technical Expertise</h2>
+          <p class="section-subtitle">Structured proficiencies organized by data science domains.</p>
         </div>
 
         <div class="skills-grid">
           <!-- Programming -->
           <div class="skill-category-card">
-            <div class="card-icon-banner">
+            <div class="category-header">
               <i class="fa-solid fa-code"></i>
-              <h3>Programming Languages</h3>
+              <h3>Programming</h3>
             </div>
-            <ul class="badge-list">
-              <li class="tech-badge">Python</li>
-              <li class="tech-badge">SQL</li>
-            </ul>
+            <div class="pill-group">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">SQL</span>
+            </div>
           </div>
 
           <!-- Machine Learning -->
           <div class="skill-category-card">
-            <div class="card-icon-banner">
+            <div class="category-header">
               <i class="fa-solid fa-brain"></i>
               <h3>Machine Learning</h3>
             </div>
-            <ul class="badge-list">
-              <li class="tech-badge">Scikit-learn</li>
-              <li class="tech-badge">Regression</li>
-              <li class="tech-badge">Classification</li>
-              <li class="tech-badge">Clustering</li>
-              <li class="tech-badge">Feature Engineering</li>
-              <li class="tech-badge">Model Evaluation</li>
-            </ul>
-          </div>
-
-          <!-- Statistics -->
-          <div class="skill-category-card">
-            <div class="card-icon-banner">
-              <i class="fa-solid fa-chart-line"></i>
-              <h3>Statistics</h3>
+            <div class="pill-group">
+              <span class="skill-pill">Scikit-learn</span>
+              <span class="skill-pill">Regression</span>
+              <span class="skill-pill">Classification</span>
+              <span class="skill-pill">Clustering</span>
+              <span class="skill-pill">Feature Engineering</span>
+              <span class="skill-pill">Model Evaluation</span>
             </div>
-            <ul class="badge-list">
-              <li class="tech-badge">Descriptive Statistics</li>
-              <li class="tech-badge">Probability</li>
-              <li class="tech-badge">Hypothesis Testing</li>
-              <li class="tech-badge">Correlation & Regression</li>
-            </ul>
           </div>
 
           <!-- Data Analysis -->
           <div class="skill-category-card">
-            <div class="card-icon-banner">
-              <i class="fa-solid fa-filter"></i>
+            <div class="category-header">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
               <h3>Data Analysis</h3>
             </div>
-            <ul class="badge-list">
-              <li class="tech-badge">Pandas</li>
-              <li class="tech-badge">NumPy</li>
-              <li class="tech-badge">Excel</li>
-              <li class="tech-badge">Exploratory Data Analysis (EDA)</li>
-            </ul>
+            <div class="pill-group">
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">Excel</span>
+              <span class="skill-pill">Exploratory Data Analysis (EDA)</span>
+            </div>
           </div>
 
           <!-- Data Visualization -->
           <div class="skill-category-card">
-            <div class="card-icon-banner">
-              <i class="fa-solid fa-chart-simple"></i>
+            <div class="category-header">
+              <i class="fa-solid fa-chart-column"></i>
               <h3>Data Visualization</h3>
             </div>
-            <ul class="badge-list">
-              <li class="tech-badge">Power BI</li>
-              <li
+            <div class="pill-group">
+              <span class="skill-pill">Power BI</span>
+              <span class="skill-pill">Tableau</span>
+              <span class="skill-pill">Matplotlib</span>
+              <span class="skill-pill">Seaborn</span>
+            </div>
+          </div>
+
+          <!-- Statistics -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa-solid fa-square-root-variable"></i>
+              <h3>Statistics</h3>
+            </div>
+            <div class="pill-group">
+              <span class="skill-pill">Descriptive Statistics</span>
+              <span class="skill-pill">Probability</span>
+              <span class="skill-pill">Hypothesis Testing</span>
+              <span class="skill-pill">Correlation & Regression</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i class="fa-solid fa-server"></i>
+              <h3>Databases</h3>
+            </div>
+            <div class="pill-group">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">OracleSQL</span>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skill-category-card wide-card">
+            <div class="category-header">
+              <i class="fa-solid fa-toolbox"></i>
+              <h3>Tools & Platforms</h3>
+            </div>
+            <div class="pill-group">
+              <span class="skill-pill">Jupyter Notebook</span>
+              <span class="skill-pill">Google Colab</span>
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Technical Projects</h2>
+          <p class="section-subtitle">Real-world applications across deep learning and enterprise business intelligence.</p>
+        </div>
+
+        <div class="projects-container">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-badge">Deep Learning & IoT</div>
+              <h3 class="project-title">Unsupervised Deep Anomaly Detection for Machine Condition Monitoring Using Acoustic Signals</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-summary">
+                Developed an unsupervised deep learning-based anomaly detection framework to identify abnormal machine conditions directly from raw and processed acoustic signals, enabling proactive industrial fault detection.
+              </p>
+              <ul class="project-bullet-list">
+                <li>Performed comprehensive data preprocessing, noise reduction, acoustic feature extraction, and exploratory analysis on high-frequency sound signals.</li>
+                <li>Trained and evaluated deep learning models to systematically distinguish normal operating patterns from potential machine anomalies.</li>
+                <li>Analyzed anomaly distribution patterns to support early fault detection strategies and predictive maintenance for industrial machinery.</li>
+              </ul>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Librosa</span>
+                <span class="tech-tag">TensorFlow/Keras</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Pandas</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-badge">Business Intelligence & Analytics</div>
+              <h3 class="project-title">Customer Behavior Analysis & Dashboard | SQL, Python, Power BI</h3>
+            </div>
+            <div class="project-body">
+              <p class="project-summary">
+                Conducted an end-to-end data analytics project examining customer transactions, demographic patterns, and shipping logistics to extract actionable revenue optimization insights.
+              </p>
+              <ul class="project-bullet-list">
+                <li>Executed data cleaning, exploratory data analysis (EDA), and multi-criteria SQL aggregation to evaluate customer purchasing habits.</li>
+                <li>Analyzed demographic segmentation, product category revenues, and recurring subscription trends using Python and relational SQL.</li>
+                <li>Built an interactive Power BI dashboard featuring dynamic KPIs, custom slicers, category drill-downs, and visual cross-filters.</li>
+                <li>Delivered business recommendations by isolating sales distribution variations across age groups, product tiers, and shipping preferences.</li>
+              </ul>
+              <div class="project-tech-stack">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Excel</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Grid -->
+    <section class="section credentials-section" id="education">
+      <div class="container grid-two-columns">
+        <!-- Education Column -->
+        <div class="credentials-col">
+          <div class="section-header">
+            <span class="section-tag">Academic Background</span>
+            <h2 class="section-title">Education</h2>
+          </div>
+          <div class="timeline-wrapper">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">09/2023 – 05/2026</span>
+                <h3 class="timeline-role">Bachelor of Technology in Computer Science (Data Science)</h3>
+                <h4 class="timeline-institution">Vaagdevi Engineering College</h4>
+                <p class="timeline-location"><i class="fa-solid fa-location-dot"></i> Warangal, India</p>
+                <p class="timeline-desc">
+                  Focused on foundational computer science principles integrated with specialized data science curricula including statistics, machine learning, database management systems, and algorithms.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="credentials-col" id="certifications">
+          <div class="section-header">
+            <span class="section-tag">Industry Credentials</span>
+            <h2 class="section-title">Certifications</h2>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="cert-details">
+              <h3 class="cert-title">Deloitte Data Analytics Job Simulation</h3>
+              <p class="cert-provider">Issued by <strong>Forage</strong></p>
+              <p class="cert-desc">
+                Simulated real-world corporate analytics deliverables, focusing on client dataset evaluation, business insight formulation, and structured data-driven reporting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Connect & Collaborate</h2>
+          <p class="section-subtitle">Reach out for data science opportunities, predictive analytics projects, or collaborations.</p>
+        </div>
+
+        <div class="contact-card-wrapper">
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <h4>Email</h4>
+            <a href="mailto:ajaymaidam19@gmail.com" class="contact-link">ajaymaidam19@gmail.com</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <h4>Phone</h4>
+            <a href="tel:+918008742025" class="contact-link">+91-8008742025</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <h4>Location</h4>
+            <span class="contact-text">Hyderabad, Telangana, India</span>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <h4>LinkedIn</h4>
+            <a href="[https://linkedin.com](https://linkedin.com)" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn</a>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <h4>GitHub</h4>
+            <a href="[https://github.com](https://github.com)" target="_blank" rel="noopener noreferrer" class="contact-link">Explore Repositories</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="brand-monogram">
+          <span class="mono-box">MAK</span>
+        </span>
+        <p>Maidam Ajay Kumar · Data Science Professional</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="current-year"></span> Maidam Ajay Kumar. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="index.js"></script>
+</body>
+</html>
